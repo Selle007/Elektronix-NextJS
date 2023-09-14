@@ -5,7 +5,7 @@ import Navbar from '../layout/Navbar/Navbar';
 
 function Layout({ children }) {
   return (
-    <div>
+    <div className='bg-background text-black h-screen'>
       <Navbar />
       <main>{children}</main>
 
