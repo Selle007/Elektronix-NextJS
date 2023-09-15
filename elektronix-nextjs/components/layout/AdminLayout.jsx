@@ -1,13 +1,13 @@
 // components/Layout.js
 import React from 'react';
-import AdminSidebar from './AdminSidebar/AdminSidebar';
+import AdminSidebar from './AdminSidebar';
 
 
 function AdminLayout({ children }) {
   return (
-    <div>
+    <div className='flex'>
       <AdminSidebar />
-      <main>{children}</main>
+      <main className='bg-background w-full'>{children}</main>
 
     </div>
   );
